@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+
+<body>
+    <div class="header">
+        商品列表
+        <p class="active">
+            <a href="./index.html">返回首页</a>
+        </p>
+    </div>
+
+    <div class="filterBox">
+        <div class="content">
+            <p>分类</p>
+            <ul class="category ">
+            </ul>
+        </div>
+        <div class="content">
+            <p>筛选</p>
+            <ul class="filter">
+                <li type="" class="active">全部</li>
+                <li type="sale">折扣</li>
+                <li type="hot">热销</li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>折扣</p>
+            <ul class="sale">
+                <li type="10" class="active">全部</li>
+                <li type="5">5</li>
+                <li type="6">6</li>
+                <li type="7">7</li>
+                <li type="8">8</li>
+                <li type="9">9</li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>排序</p>
+            <ul class="sort">
+                <li type="id" method="ASC" class="active">综合升序</li>
+                <li type="id" method="DESC">综合降序</li>
+                <li type="price" method="ASC">价格升序</li>
+                <li type="price" method="DESC">价格降序</li>
+                <li type="sale" method="ASC">折扣升序</li>
+                <li type="sale" method="DESC">折扣降序</li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>搜索</p>
+            <input class="search" type="text">
+        </div>
+        <div class="content">
+            <span class="left">&lt;</span>
+            <span class="totle">1 / 100</span>
+            <span class="right">&gt</span>
+            <select>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="20">20</option>
+                <option value="24">25</option>
+            </select>
+            <input class="page" type="text" value="1">
+            <button class="jump">跳转</button>
+        </div>
+    </div>
+
+    <ul class="list">
+
+        <!-- <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li> -->
+    </ul>
+    <script src="./jquery/jquery-3.6.0.js"></script>
+    <script src="./js/list.js"></script>
+</body>
+
+
+</html>
